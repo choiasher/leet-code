@@ -1,9 +1,8 @@
 package me.asher.main;
 
-import java.util.*;
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Stack;
 
 /**
  * Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the
@@ -13,6 +12,8 @@ import java.util.stream.Stream;
  * <p>
  * Open brackets must be closed by the same type of brackets. Open brackets must be closed in the
  * correct order.
+ *
+ * @author choiahser
  */
 public class ValidParentheses {
 
